@@ -35,6 +35,7 @@ body {
     padding: 21px;
     width: 80%; /*whatever width you want*/
     background: #fff;
+    border-radius: 10px;
 }
 
 .modal {

@@ -1,16 +1,15 @@
 
-var modal = document.getElementById('simpleModal');
-
+// elements
+var modal = document.getElementById('modal');
 var modalBtn = document.getElementById('modalBtn');
-
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
+// events
 modalBtn.addEventListener('click', openModal);
-
 closeBtn.addEventListener('click', closeModal);
-
 window.addEventListener('click', clickOutsideModal)
 
+// functions
 function openModal(){
   modal.style.display = 'block';
 }
