@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,24 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <button id="modalBtn" class="button">Open Modal</button>
 
   <div id="simpleModal" class="modal">
-    <div class="modal-content">
-      <span class="closeBtn">&times;</span>
-      <p>Integer fermentum accumsan mattis. Donec non sollicitudin magna. Nunc egestas
-        tortor eget venenatis aliquet. Fusce porttitor orci sit amet convallis auctor.
-        Quisque et fringilla metus. In placerat massa vel purus tempus semper.</p>
-    </div>
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
 
+          <span class="closeBtn">&times;</span>
+          <p>Integer fermentum accumsan mattis. Donec non sollicitudin magna. Nunc egestas tortor eget venenatis aliquet. Fusce porttitor orci sit amet convallis auctor. Quisque et fringilla metus. In placerat massa vel purus tempus semper.</p>
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="js/main.js" charset="utf-8"></script>
 </body>
+
 </html>

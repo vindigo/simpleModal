@@ -16,6 +16,27 @@ body {
   background: #c0c0c0;
 }
 
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation-name: modalOpen;
+    animation-duration: 1s;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin: auto;
+    padding: 21px;
+    width: 80%; /*whatever width you want*/
+    background: #fff;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -26,17 +47,6 @@ body {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  background-color: #f4f4f4;
-  margin: 40% auto;
-  padding: 20px;
-  width: 75%;
-  box-shadow: 0 5px 8px 0;
-  box-shadow: rgba(0, 0, 0, 0.2), rgba(0, 7px, 20px, 0, 0.17);
-  animation-name: modalOpen;
-  animation-duration: 1s;
 }
 
 .closeBtn {

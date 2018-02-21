@@ -20,7 +20,7 @@ function closeModal(){
 }
 
 function clickOutsideModal(e){
-  if (e.target == modal){
+  if (e.target.classList.contains('middle')){
       modal.style.display = 'none';
   }
 }
