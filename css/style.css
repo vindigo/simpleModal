@@ -22,13 +22,13 @@
 
 .middle {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle; /* change position of modal */
 }
 
 .inner {
     margin: auto;
     padding: 21px;
-    width: 80%; /*whatever width you want*/
+    width: 80%; /* change width of modal */
     background: #fff;
     border-radius: 10px;
 }
